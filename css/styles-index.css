@@ -272,3 +272,25 @@ pre {
   font-weight: 400;
   line-height: 24px;
 }
+
+@media screen and (max-width: 360px){
+
+  header, .header {
+    position: static;
+  }
+
+  .conceptos, .setup {
+    display: none;
+  }
+
+  .hero {
+    height: 96px;
+  }
+
+  .wrapper {
+    width: 328px;
+    margin: auto;
+  }
+
+
+}

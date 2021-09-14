@@ -265,3 +265,19 @@ scroll-page h1 {
   display: inline-block;
   align-items: center;
 }
+
+@media screen and (max-width: 360px){
+
+  .conceptos, .setup {
+    display: none;
+  }
+
+  header, .header {
+    position: static;
+  }
+
+  .wrapper{
+    width: 328px;
+    margin: auto;
+  }
+}
