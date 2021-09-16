@@ -174,7 +174,7 @@ input[type="submit"] {
 
 .wrapper {
   width: 902px;
-  margin: auto;
+  margin-inline: 348px 116px;
 }
 
 .main-content{
@@ -218,6 +218,10 @@ input[type="submit"] {
   height: auto;
 }
 
+.no-count h3::before {
+  content: none;
+}
+
 .section-content + hr {
   display: none;
 }
@@ -259,6 +263,26 @@ input[type="submit"] {
   height: 350px;
 }
 
+.variantes {
+  margin-block: 16px 104px;
+  list-style-type: none;
+  padding-inline-start: 23px;
+}
+
+.variantes a{
+  font-weight: 500;
+  display: block;
+  padding: 8px 0px 8px 8px;
+  width: 188px;
+}
+
+ .variantes a:hover{
+  background: #000000;
+  border-radius: 4px;
+  max-inline-size: 100%;
+  color: #FFFFFF;
+}
+
 nav details summary {
   font-weight: bold;
   line-height: 24px;
@@ -266,6 +290,7 @@ nav details summary {
 
 pre {
   background: #FEC62E;
+  overflow: hidden;
   padding: 40px;
   font-family: 'Roboto';
   font-size: 16px;
@@ -273,10 +298,29 @@ pre {
   line-height: 24px;
 }
 
+span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+summary {
+  padding-inline-start: 25px;
+}
+
 @media screen and (max-width: 360px){
+
+  h1 {
+    font-size: 24px;
+    margin-block: 40px 16px;
+    margin-inline: 0px;
+  }
 
   header, .header {
     position: static;
+  }
+
+  img {
+    max-inline-size: 100%;
   }
 
   .conceptos, .setup {
@@ -285,12 +329,11 @@ pre {
 
   .hero {
     height: 96px;
+    margin-block-end: 16px;
   }
 
   .wrapper {
     width: 328px;
     margin: auto;
   }
-
-
 }
