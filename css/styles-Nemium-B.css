@@ -60,13 +60,13 @@ header {
   font-size: 14px;
   color: var(--white30);
   position: absolute;
-  inline-size: 188px;
-  /*top */
+  inline-size: 306px;
+  /* left */
+  inset-inline-start: -306px;
+  /*top*/
   inset-block-start:;
   /* bottom */
   inset-block-end: ;
-  /* left */
-  inset-inline-start: -208px;
   /* Right */
   inset-inline-end: ;
 }
@@ -207,7 +207,7 @@ input::placeholder {
  block-size: 15px;
  background: white;
  margin-inline: 5px;
-border-radius: 50%;
+ border-radius: 50%;
 }
 
 .slider-bullet-list {
@@ -225,6 +225,16 @@ border-radius: 50%;
   font-size: 0;
 }
 
+.summary-variantes {
+  display: block;
+  margin: 0px;
+  width: 176px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
 .video {
   display: inline-block;
   width: 100%;
@@ -238,12 +248,29 @@ border-radius: 50%;
   height: 350px;
 }
 
+.variantes {
+  margin-block: 16px 104px;
+  list-style-type: none;
+  padding-inline-start: 15px;
+}
+
+.variantes a {
+  display: block;
+  padding: 8px 0px 8px 8px;
+  width: 306px;
+}
+
+.variantes a:hover {
+  color: #FFFFFF;
+  background: #000000;
+}
+
 .wrapper {
   /* border: 1px solid yellow; */
   inline-size: 902px;
   max-inline-size: 902px;
   /* block-size: 200px; */
-  margin: auto;
+  margin-inline: 530px 200px;
 }
 
 nav details summary {
