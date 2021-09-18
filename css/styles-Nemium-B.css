@@ -276,6 +276,14 @@ scroll-page h1 {
     position: static;
   }
 
+  .hero {
+    height: 96px;
+  }
+
+  pre {
+    overflow: scroll;
+  }
+
   .wrapper{
     width: 328px;
     margin: auto;

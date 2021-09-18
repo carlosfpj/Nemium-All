@@ -309,18 +309,68 @@ summary {
 
 @media screen and (max-width: 360px){
 
+  blockquote {
+    margin-block: 40px;
+    font-size: 16px;
+  }
+
+  blockquote p {
+    line-height: 32px;
+    margin-block: 0px 4px;
+  }
+
+  blockquote span {
+    font-style: normal;
+    color: #616161;
+    font-weight: 400;
+  }
+
+  form {
+    margin-block-end: 40px;
+  }
+
   h1 {
     font-size: 24px;
     margin-block: 40px 16px;
     margin-inline: 0px;
   }
 
+  h1 ~ p {
+    margin-block-end: 40px;
+  }
+
+  h2 {
+    margin: 40px 0px 24px;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-block-end: 16px;
+  }
+
   header, .header {
     position: static;
   }
 
+  hr {
+    margin-block: 0px;
+  }
+
   img {
     max-inline-size: 100%;
+  }
+
+  input[type="text"] {
+    margin-block-end: 16px;
+  }
+
+  input[type="text"], input[type="email"] {
+    width: 328px;
+  }
+
+  input[type="submit"] {
+    right: 0px;
   }
 
   .conceptos, .setup {
@@ -332,8 +382,30 @@ summary {
     margin-block-end: 16px;
   }
 
+  p {
+    line-height: 24px;
+  }
+
+  pre {
+    margin-block-end: 24px;
+  }
+
+  .section-content img {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .variantes {
+    padding-inline-start: 0px;
+    margin-block-end: 40px;
+  }
+
   .wrapper {
     width: 328px;
     margin: auto;
+  }
+
+  summary {
+    padding-inline-start: 0px;
   }
 }
