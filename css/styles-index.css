@@ -351,6 +351,7 @@ summary {
 
   header, .header {
     position: static;
+    width: auto;
   }
 
   hr {
@@ -398,6 +399,10 @@ summary {
   .variantes {
     padding-inline-start: 0px;
     margin-block-end: 40px;
+  }
+
+  .variantes a {
+    width: auto;
   }
 
   .wrapper {
