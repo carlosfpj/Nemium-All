@@ -56,6 +56,14 @@ a {
   color: var(--white30)
 }
 
+details[open] summary {
+  list-style-image: url("../Images/Details-Summary-Open-White.png");
+}
+
+summary {
+  list-style-image: url("../Images/Details-Summary-Closed-White.png");
+}
+
 .conceptos ol, .setup ol {
   padding-inline-start: 29px;
 }

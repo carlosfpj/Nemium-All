@@ -59,6 +59,14 @@ a {
   color: var(--gray30)
 }
 
+details[open] summary {
+  list-style-image: url("../Images/Details-Summary-Open-Gray.png");
+}
+
+summary {
+  list-style-image: url("../Images/Details-Summary-Closed-Gray.png");
+}
+
 form {
   position: relative;
   margin-block-end: 113px;

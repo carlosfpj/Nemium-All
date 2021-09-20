@@ -5,6 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles-Nemium-E.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -14,8 +19,8 @@
         <header>
           <nav>
             <details open>
-            <summary>Variantes del Proyecto</summary>
-            <ol>
+            <summary>VARIANTES DEL PROYECTO</summary>
+            <ol class="variantes">
               <li><a href="index.html">Nemium-A</a></li>
               <li><a href="Nemium-B.html">Nemium-B</a></li>
               <li><a href="Nemium-C.html">Nemium-C</a></li>
@@ -71,7 +76,7 @@
   <main class="main">
     <div class="wrapper">
       <div class="main-content">
-        <h1>Curso escencial HTML y CSS</h1>
+        <h1>Curso escencial de HTML y CSS</h1>
         <p>
           Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de
           contenidos,
@@ -113,34 +118,28 @@
             manera privada, Github será esencial para almacenar tu futuro portafolio.
           </p>
           <blockquote>
-            <p>
-              “Este es el inicio de tu carrera como Desarrollador Web”
-            </p>
-            <p>
-              <span>
-                Carlos Pinzón
-              </span>
-            </p>
+            <p>“Este es el inicio de tu carrera como Desarrollador Web”</p>
+            <p>- Carlos Pinzón</p>
           </blockquote>
         </section>
         <section class="section-content">
           <h2>Conceptos esenciales del Desarrollo Web</h2>
           <h3 id="que-es-html">HTML</h3>
-          <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el
-            significado
-            y la estructura del contenido.</p>
+          <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
+          y la estructura del contenido.</p>
           <pre>
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="en"&gt;
-    &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width,
+&lt;initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-    &lt;/body&gt;
-    &lt;/html&gt;</pre>
+&lt;/body&gt;
+&lt;/html&gt;</pre>
           <h3 id="etiquetas">Etiquetas</h3>
           <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y
             cada una tiene
@@ -187,7 +186,7 @@
           </p>
           <img src="images/css.png" alt="">
         </section>
-        <section class="section-content">
+        <section class="section-content box-model">
           <h2>Modelo de Caja</h2>
           <h3>El modelo de caja está compuesto por:</h3>
           <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y
@@ -248,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="section-content">
+        <div class="section-content newsletter">
           <p>
             Si tienes alguna pregunta escríbeme a
             <a href="mailto:dummieemail@gmail.com">Contactarse via E-mail</a>
