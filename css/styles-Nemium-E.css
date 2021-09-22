@@ -52,7 +52,7 @@ a {
   color: var(--white30)
 }
 
-details[open] summary::marker {
+details[open] summary {
   list-style-image: url("../Images/Details-Summary-Open-White.png");
 }
 
@@ -398,7 +398,7 @@ scroll-page h1 {
   }
 
   blockquote p {
-    font-weight: 700;
+    font-weight: 400;
     width: 312px;
     margin-block: 0px;
   }
@@ -462,7 +462,7 @@ scroll-page h1 {
 
   header, .header {
     position: static;
-    margin-block: 24px 40px;
+    margin-block: 24px 92px;
   }
 
   .header-content {
@@ -480,10 +480,10 @@ scroll-page h1 {
 
   .main hr {
     position: absolute;
-    top: -40px;
+    top: -82px;
     right: 0px;
     left: 0px;
-    margin-block: 0px;
+    margin-block: 40px;
   }
 
   p {
@@ -538,6 +538,10 @@ scroll-page h1 {
 
   #visual-studio-code {
     content: url(/images/visual-studio-code-40px.png);
+  }
+
+  .variantes {
+    margin-block-end: 40px;
   }
 
   .wrapper{
