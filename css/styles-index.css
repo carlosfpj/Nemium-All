@@ -262,6 +262,10 @@ input[type="submit"] {
   bottom: 0;
 }
 
+.no-h3-after h3::after {
+  content: none;
+}
+
 .section-content ul li {
   margin-top: 16px;
 }
@@ -317,6 +321,21 @@ summary {
 
 @media screen and (max-width: 360px){
 
+  #google-chrome {
+    content: url(/images/google-chrome-black-64.png);
+  }
+
+  #visual-studio-code {
+    content: url(/images/visual-studio-code-black-64.png);
+  }
+
+  #figma {
+    content: url(/images/figma-black-64.png);
+  }
+
+  #github {
+    content: url(/images/github-black-64.png);
+  }
   blockquote {
     margin-block: 40px;
     font-size: 16px;

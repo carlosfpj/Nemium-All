@@ -213,9 +213,19 @@ input::placeholder {
 }
 
 .section-content h3 {
-  font-size: 24px;
+  font-size: 32px;
   /*counter-increment: tittleList;*/
   /* writing-mode: vertical-rl; */
+}
+
+.section-3 h3:first-of-type {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-3 ol, .section-3 ul {
+  padding-inline-start: 16px;
+  color: #A5A3A5;
 }
 
 /*.section-content h3::before {
@@ -319,7 +329,7 @@ nav details summary {
 }
 
 p {
-  color: var(--white30);
+  color: #A5A3A5;
 }
 
 pre {
@@ -345,6 +355,7 @@ scroll-page h1 {
   }
 
   blockquote p {
+    color: var(--white30);
     font-weight: 700;
     width: 312px;
     margin-block: 0px;
@@ -399,6 +410,10 @@ scroll-page h1 {
     height: 96px;
   }
 
+  .main-content {
+    padding-inline: 0px;
+  }
+
   .main hr {
     display: block;
   }
@@ -415,6 +430,11 @@ scroll-page h1 {
   .section-content h3 {
     font-weight: 400;
     font-size: 20px;
+  }
+
+  .section-3 h3:first-of-type {
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .section-content img {
